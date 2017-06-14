@@ -4,4 +4,4 @@ def rectangle_area a, b
 	
 end
 
-puts rectangle_area 5, 8
+puts rectangle_area 5, 9
