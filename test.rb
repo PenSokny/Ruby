@@ -1,5 +1,2 @@
-w = "World"
-  a = "Hello #{w}" == "Hello World"
-  b = 'Hello #{w}' == "Hello World"
-  c = 'Hello %s' %w == "Hello World"
-  d = "Hello " + w == "Hello World
+proc = Proc.new {|x| puts x} 
+proc.call(1, 2, 3)
